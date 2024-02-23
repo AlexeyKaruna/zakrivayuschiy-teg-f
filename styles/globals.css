@@ -26,6 +26,12 @@ li {
   padding: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
 a {
   color: inherit;
 }
@@ -35,6 +41,9 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 
 ul,

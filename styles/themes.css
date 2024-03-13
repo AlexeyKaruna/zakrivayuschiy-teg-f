@@ -17,6 +17,7 @@
     linear-gradient(180deg, #e7e7e7 0%, #1a1a1a 100%);
   --themes-main-color: #000;
   --themes-background-color: #fff;
+  --themes-hover-text-color: #fff;
 }
 
 :root.theme-dark {
@@ -31,4 +32,26 @@
     linear-gradient(180deg, #007f0c 0%, #004306 100%);
   --themes-main-color: #00cc14;
   --themes-background-color: #000;
+  --themes-hover-text-color: #00cc14;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --headings-font-weight: 700;
+    --main-font-weight: 400;
+    --background-color: repeating-linear-gradient(
+        90deg,
+        #d3d3d3 0px 2px,
+        rgba(0, 0, 0, 0) 2px 4px
+      ),
+      repeating-linear-gradient(
+        180deg,
+        #d3d3d3 0px 2px,
+        rgba(0, 0, 0, 0) 2px 4px
+      ),
+      linear-gradient(180deg, #e7e7e7 0%, #1a1a1a 100%);
+    --themes-main-color: #000;
+    --themes-background-color: #fff;
+    --themes-hover-text-color: #fff;
+  }
 }

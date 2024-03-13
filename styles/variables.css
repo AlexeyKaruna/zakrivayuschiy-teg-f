@@ -4,6 +4,8 @@
   --font-main: "Inter-Variable", sans-serif;
   --font-accent: "PressStart2P", fantasy;
   --main-font-weight: 400;
+  --headings-font-weight: 700;
+  --font-size: 18px;
   --background: repeating-linear-gradient(
       90deg,
       black 0px 2px,
@@ -11,4 +13,8 @@
     ),
     repeating-linear-gradient(180deg, black 0px 2px, rgba(0, 0, 0, 0) 2px 4px),
     linear-gradient(180deg, #007f0c 0%, #004306 100%);
+  --themes-hover-text-color: #fff;
+  --heart-main-body-color: none;
+  --heart-contour-color: var(--themes-main-color);
+  --heart-sparks-color: #f00;
 }
